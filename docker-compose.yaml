@@ -1,8 +1,17 @@
 version: "3.8"
 services:
+<<<<<<< HEAD
  Webserver:
     image: "myapi"
     env_file:
      - config.env
     ports:
      - "8080:8080"
+=======
+image: "myapi"
+env_file:
+- config.cfg
+ports:
+- "8080:8080"
+
+>>>>>>> 70c0f643f2d82a4ebf3e2770c8f81bddeda1836e
