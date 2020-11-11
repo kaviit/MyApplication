@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+ Webserver:
+    image: "myapi"
+    env_file:
+     - config.env
+    ports:
+     - "8080:8080"
