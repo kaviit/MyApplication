@@ -2,7 +2,7 @@
 
 Application is developed in python language using flask web framework
 
-/info endpoint which returns a 200 response in JSON format with the following:
+/info endpoint which returns a 200 response in JSON format with the following output:
 
 - service_name
 - version
@@ -10,6 +10,8 @@ Application is developed in python language using flask web framework
 - environment
 
 - sample JSON response
+
+```
   {
   "service_name": "myapplication",
   "version": "1.0.0",
@@ -19,6 +21,7 @@ Application is developed in python language using flask web framework
   "service_port": "8080"
   },
   }
+```
 
 ## Getting started
 
@@ -45,7 +48,6 @@ docker-compose up -d
 - To get the /info endpoint output
 
 ```shell
-
 http://localhost:8080/info
 
 or
@@ -53,8 +55,10 @@ or
 # curl -s http://localhost:8080/info
 ```
 
-To stop the docker container
+To stop the container
 
 ```shell
 docker-compose stop
 ```
+
+This has been tested on windows(Docker desktop), Amazon Linux 2 AMI, Ubuntu server
