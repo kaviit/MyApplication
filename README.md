@@ -52,7 +52,7 @@ http://localhost:8080/info
 
 or
 
-# curl -s http://localhost:8080/info
+# curl http://localhost:8080/info
 ```
 
 To stop the container
@@ -61,4 +61,4 @@ To stop the container
 docker-compose stop
 ```
 
-This has been tested on windows(Docker desktop), Amazon Linux 2 AMI, Ubuntu server
+This has been tested on Windows(Docker desktop), Amazon Linux 2 AMI, Ubuntu server.
